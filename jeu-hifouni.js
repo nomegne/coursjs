@@ -47,12 +47,12 @@ switch(reponse){
 
     case "feuille":
         if("feuille"==reponseM)  {
-            pointUser=+1
-            pointMachine=+0
+            pointUser+=1
+            
         } 
         else  {
-            pointUser=+0
-            pointMachine=+1
+            
+            pointMachine+=1
         } 
     break
 
