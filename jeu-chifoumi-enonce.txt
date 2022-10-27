@@ -1,0 +1,7 @@
+Jeu Chifoumi (dans le navigateur)
+
+- on peut jouer 3 manches d'affilée
+- pour chaque manche, l'ordinateur choisit une option (pierre, feuille, ciseau) et vous choisissez 
+une option également (avec prompt)
+- vous affichez le résultat de la manche et le score temporaire
+- à l'issue des 3 manches, vous affichez le résultat final 
