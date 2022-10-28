@@ -29,3 +29,12 @@ monPemierObjet.cle="valeur"
 const contact={"nom":"Dounia",prenom:"muriane"}
 console.log(contact)
 console.log(contact.nom)
+
+var lettres_restantes='abcdefghijklmnopqrstuvwxyz'
+var tabEssaie =['chat', 'lapin', 'faisan','amie','tableau'];
+var newMot=tabEssaie[2]
+var i=newMot[1]
+var newVoc=newMot.replace(newMot[1],"-")
+
+console.log(newVoc)
+console.log(newMot)
