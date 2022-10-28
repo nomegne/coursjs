@@ -60,7 +60,7 @@ for(var index=9;index>=0;index--){
             alert ("Bravo vous avez trouvez"+" "+"lettre choisie"+" "+reponse+"du mot")    
             alert ("il vous rste "+ index+" "+"tentative")
           }else{
-            alert ("Desolé"+" "+"lettre choisie"+" "+reponse+" "+"n'est pas contenu dans ce mot")    
+            alert ("Desolé"+" "+"lettre choisie"+" "+reponse+"  "+"n'est pas contenu dans ce mot")    
             alert ("il vous rste "+ index+" "+"tentative")
           }
 
