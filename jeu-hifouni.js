@@ -14,7 +14,7 @@ for (let index = 0; index < 3; index++) {
 
     const reponse = prompt ("choississez entre piere,feuille,ciseau","").toLowerCase()
     alert(reponse)
-
+    
 
 resultat =entierAleatoire(1,3)
 
@@ -26,7 +26,7 @@ if(resultat==3) reponseM ="ciseau"
 
 switch(reponse){
     case "piere":
-        if("piere"==reponseM){
+        if(reponse==reponseM){
             pointUser+=1
         } 
         else {
@@ -35,7 +35,7 @@ switch(reponse){
     break
 
     case "ciseau":
-        if("ciseau"==reponseM)  {
+        if(reponse==reponseM)  {
             pointUser+=1
     
         } 
@@ -46,7 +46,7 @@ switch(reponse){
     break
 
     case "feuille":
-        if("feuille"==reponseM)  {
+        if(reponse==reponseM)  {
             pointUser+=1
             
         } 
